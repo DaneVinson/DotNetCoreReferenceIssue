@@ -1,0 +1,21 @@
+﻿{
+  "dependencies": {
+    "NETStandard.Library": "1.6.0"
+  },
+  "frameworks": {
+    "net45": {
+    },
+    "net461": {
+      "buildOptions": {
+        "outputName": "../../../../_bin/CoreLibrary.dll"
+      }
+    },
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  },
+  "scripts": {
+    "postcompile": [ "postcompile.cmd" ]
+  },
+  "version": "1.0.0-*"
+}
